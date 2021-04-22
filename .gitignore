@@ -114,3 +114,5 @@ local.properties
 ### Composer ###
 vendor/
 composer.lock
+
+test/temp/*
