@@ -1,0 +1,24 @@
+{
+    "name": "example/example",
+    "description": "An example of how to use the Runner package",
+    "repositories": [
+        {
+            "type": "path",
+            "url": "../../"
+        }
+    ],
+    "require": {
+        "php": ">=8.0",
+        "coffeephp/runner": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Example1\\": "src1/",
+            "Example2\\": "src2/"
+        }
+    },
+    "extra": {
+        "coffeephp-runner-namespace": "Example2\\",
+        "coffeephp-runner-class": "OtherClass"
+    }
+}
